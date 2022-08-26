@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500&family=M+PLUS+Rounded+1c:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    box-sizing: border-box;
+}
+
+/*header*/
+header{
+    position:sticky;
+    top: 0;
+    background-color: white;
+}
+.imagenlogo{
+    width: 40em;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+/*menu*/
+.menu{
+display: flex;
+justify-content: center;
+gap: 50px;
+list-style-type: none;
+font-family: 'Cormorant SC', serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 400;
+text-align: center;
+width: 100%;
+height: 100%;
+background-color: #d4a373;
+margin-bottom: 10px;
+}
+.navbar{
+display: flex;
+justify-content: center;
+}
+.menu__item a {
+    color: #fefae0;
+    text-decoration: none;
+}
+
+/*imagenes del menu*/
+.imagenes{
+    height: 400px;
+    width: 400px; 
+   }
+   .divimagenes{
+   display: flex;
+   justify-content: center;
+   gap:20px;
+   }
+   /*BODY*/
+.main h1{
+    color: #d4a373;
+    font-family: 'Cormorant SC', serif;
+    font-size: 400;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.main section{
+    color: #d4a373;
+    font-family: 'Cormorant SC', serif;
+    padding-left: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/*PROFESORES*/
+.profesores{
+    color: #d4a373;
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+    margin-top: 40px;
+}
+.contenedor{ 
+    border: 1px solid green;
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+.caja{
+    border: 1px solid red
+}
+
+/*PIE DE PAGINA INDEX*/
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color:  #d4a373;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.footer li{
+    color: #fefae0
+}
+/*Formulario de Contacto*/
+.h1contacto{
+    color: #d4a373;
+    font-family: 'Cormorant SC', serif;
+    margin-left: 40px;
+}
+.loremcontacto{
+    color: #d4a373;
+    font-family: 'Cormorant SC', serif;
+    margin-left: 40px;
+}
+.h3espacioinhala{
+    color: #d4a373;
+    font-family: 'Cormorant SC', serif;
+    margin-left: 40px;
+}
+.formulario{
+    margin-top: 20px;
+    border-color: #52796f;
+    color: #52796f;
+    background-color: #fefae0;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+   
+}
+.legend{
+    color:#354f52 ;
+    font-size: larger;
+}
+/*IMAGEN ACROYOGA*/
+.imagenprincipalacro {
+    background-image:url(../images/WhatsApp\ Image\ 2022-08-19\ at\ 11.53.00\ PM.jpeg);
+    height: 180vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenprincipalacro h1{
+    font-family: 'Cormorant SC', serif;
+    color: white;
+    font-size: xxx-large;
+    background-color: #d4a37385;
+    padding-inline: 10px;
+}
+.loremacro{
+    font-family: 'Cormorant SC', serif;
+    color: #d4a373;
+    margin-top: 20px;
+}
+/*IMAGEN YOGA*/
+.imagenyoga{
+    width: 700px;
+    height: 500px;
+}
+.divyoga{
+    display: flex;
+    justify-content: center;
+}
+
+/*IMAGEN INVERTIDAS*/
+.imageninvertidas{
+    width: 500px;
+    height: 500px;
+}
+.divinvertidas{
+    display: flex;
+    justify-content: center;
+}
+
+/*FORMULARIO DE CONTACTO*/
+.divnombreyapellido{
+    text-align: center;
+}
