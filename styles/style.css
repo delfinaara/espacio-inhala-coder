@@ -73,26 +73,6 @@ justify-content: center;
     line-height: 40px;
 }
 
-/*PROFESORES*/
-.profesores{
-    color: #d4a373;
-    font-family: 'Cormorant SC', serif;
-    text-align: center;
-    margin-top: 40px;
-}
-.contenedor{ 
-    border: 1px solid green;
-    display: grid;
-    width: 400px;
-    height: 400px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    
-}
-.caja{
-    border: 1px solid red
-}
-
 /*PIE DE PAGINA INDEX*/
 .footer{
     width: 100%;
@@ -129,30 +109,25 @@ justify-content: center;
     background-color: #fefae0;
     margin-left: 100px;
     margin-right: 100px;
-    
-   
 }
+
 .legend{
     color:#354f52 ;
     font-size: larger;
 }
 /*IMAGEN ACROYOGA*/
 .imagenprincipalacro {
-    background-image:url(../images/WhatsApp\ Image\ 2022-08-19\ at\ 11.53.00\ PM.jpeg);
-    height: 180vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    width: 500px;
+    height: 500px;
+}
+.divacroyoga{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.imagenprincipalacro h1{
+.tituloacroh1{
     font-family: 'Cormorant SC', serif;
-    color: white;
-    font-size: xxx-large;
-    background-color: #d4a37385;
-    padding-inline: 10px;
+    color: #d4a373;
+    text-align: center;
 }
 .loremacro{
     font-family: 'Cormorant SC', serif;
@@ -182,4 +157,30 @@ justify-content: center;
 /*FORMULARIO DE CONTACTO*/
 .divnombreyapellido{
     text-align: center;
+}
+/*GRIDS INDEX*/
+.gridindexbody{
+    display: grid;
+    width: 100%;
+    height:100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "gridindexbody"
+        "gridheader gridmain gridfooter";
+}
+
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+    .gridindexbody{
+        display: grid;
+        width: 100%;
+        height:100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "gridindexbody"
+            "gridheader gridmain gridfooter";
+    }
+
 }
